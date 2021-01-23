@@ -5,7 +5,7 @@ import Movie from "./Movie";
 import Search from "./Search";
 
 
-const MOVIE_API_URL = "http://www.omdbapi.com/?s=man&apikey=6e552aaf";
+const MOVIE_API_URL = "http://www.omdbapi.com/?s=harry&apikey=6e552aaf";
 
 const initialState = {
   loading: true, 
@@ -83,7 +83,7 @@ const App = () => {
 
     return (
       <div className="App">
-        <Header text="HOOKED" />
+        <Header text="SEARCH" />
         <Search search={search} />
         <p className="App-intro">Sharing a few of our favourite movies</p>
         <div className="movies">

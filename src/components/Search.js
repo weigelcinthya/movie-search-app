@@ -24,6 +24,7 @@ const Search = (props) => {
           value={searchValue}
           onChange={handleSearchInputChanges}
           type="text"
+          placeholder="type a movie title..."
         />
         <input onClick={callSearchFunction} type="submit" value="SEARCH" />
       </form>
